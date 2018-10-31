@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Your app title -->
+    <title>My App</title>
+
+    <!-- This template defaults to the iOS CSS theme. To support both iOS and material design themes, see the Framework7 Tutorial at the link below:
+        http://www.idangero.us/framework7/tutorials/maintain-both-ios-and-material-themes-in-single-app.html
+     -->
+
+
+    <link rel="stylesheet" href="lib/framework7/css/framework7.min.css">
+    <link rel="stylesheet" href="lib/all.css">
+    <link rel="stylesheet" href="lib/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/home_detail.css">
+    <link rel="stylesheet" href="css/dictionary-detail.css">
+    <link rel="stylesheet" href="css/lesson-detail.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/dictionary.css">
+    <link rel="stylesheet" href="css/settings.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Status bar overlay for full screen mode (PhoneGap) -->
+        <div class="statusbar-overlay"></div>
+        <div class="panel panel-right panel-cover">
+            <div class="block">
+                <p>Left Panel content here</p>
+            </div>
+        </div>
+        <div class="views tabs md">
+            <div class="toolbar tabbar toolbar-bottom-md main-color">
+                <div class="toolbar-inner color-white">
+                    <a href="#view-home" class="tab-link tab-link-active">
+                        <i class="icon material-icons">home</i>
+                        <!-- <span class="tabbar-label">home</span> -->
+                    </a>
+                    <a href="#view-dictionary" class="tab-link">
+                        <i class="icon material-icons">book</i>
+                        <!-- <span class="tabbar-label">dictionary</span> -->
+                    </a>
+                    <a href="#view-settings" class="tab-link">
+                        <i class="icon material-icons">settings</i>
+                        <!-- <span class="tabbar-label">settings</span> -->
+                    </a>
+                </div>
+            </div>
+            <div id="view-home" class="view view-main tab tab-active">
+                <div class="page main-color">
+                    <div class="navbar main-color">
+                        <div class="navbar-inner">
+                            <div class="sliding">
+                                <img src="img/white-logo.png" alt="">
+                            </div>
+                            <a href="#" class="link right avatar panel-open">
+                                <img src="img/avatar.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Page, data-name contains page name which can be used in page callbacks -->
+                    <div class="page-content">
+                        <a href="/detail/">
+                            <div class="card card-lesson">
+                                <div class="card-content">
+                                    <div class="task">
+                                        <img src="img/1.jpg" class="img-lesson">
+                                        <div class="title-lesson">
+                                            <h2>Skill 01</h2>
+                                            <p>a / ă / â<p>
+                                        </div>
+                                        <div class="progressbar pro-bar1 sub-task progressbar-lesson"></div>
+                                        <div class="overlay lesson01"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="card card-lesson">
+                            <div class="card-content">
+                                <div class="task">
+                                    <img src="img/3.jpg" class="img-lesson">
+                                    <div class="title-lesson">
+                                        <h2>Skill 02</h2>
+                                        <p>e / ê</p>
+                                    </div>
+                                    <div class="progressbar pro-bar2 sub-task progressbar-lesson"></div>
+                                    <div class="overlay lesson02"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-lesson">
+                            <div class="card-content">
+                                <div class="task">
+                                    <img src="img/2.jpg" class="img-lesson">
+                                    <div class="title-lesson">
+                                        <h2>Skill 03</h2>
+                                        <p>g / gh / ng / ngh</p>
+                                    </div>
+                                    <div class="progressbar pro-bar3 sub-task progressbar-lesson"></div>
+                                    <div class="overlay lesson03"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-lesson">
+                            <div class="card-content">
+                                <div class="task">
+                                    <img src="img/4.jpg" class="img-lesson">
+                                    <div class="title-lesson">
+                                        <h2>Skill 04</h2>
+                                        <p>l / m / n</p>
+                                    </div>
+                                    <div class="progressbar pro-bar4 sub-task progressbar-lesson"></div>
+                                    <div class="overlay lesson04"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-lesson">
+                            <div class="card-content">
+                                <div class="task">
+                                    <img src="img/5.jpg" class="img-lesson">
+                                    <div class="title-lesson">
+                                        <h2>Skill 05</h2>
+                                        <p>hỏi / ngã</p>
+                                    </div>
+                                    <div class="progressbar pro-bar5 sub-task progressbar-lesson"></div>
+                                    <div class="overlay lesson05"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Catalog View -->
+            <div id="view-dictionary" class="view tab">
+                <!-- Catalog page will be loaded here dynamically from /catalog/ route -->
+            </div>
+
+            <!-- Settings View -->
+            <div id="view-settings" data-animate="true" class="view tab">
+                <!-- Settings page will be loaded here dynamically from /settings/ route -->
+            </div>
+        </div>
+    </div>
+
+    <!-- <script type="text/javascript" src="cordova.js"></script> -->
+
+    <script type="text/javascript" src="lib/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+    <script type="text/javascript" src="lib/all.js"></script>
+    <script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="lib/owl.carousel.min.js"></script>
+    <!-- <script type="text/javascript" src="js/section.js"></script> -->
+</body>
+
+</html>

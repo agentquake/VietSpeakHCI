@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'HandWritingFont';
+    src: url('../fonts/HP001_4_hang_bold.ttf');
+}
+
+.task {
+    position: relative;
+    width: 100%;
+    height: 165px;
+    z-index: -1;
+}
+
+.img-lesson {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+.sub-task {
+    z-index: 2;
+    top: 132px;
+    width: 80%;
+    margin-left: 40px;
+}
+
+.title-lesson {
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+}
+
+.title-lesson > h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.title-lesson > p {
+    font-family: 'HandWritingFont';
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+
+.card-lesson {
+    z-index: 0;
+    border-radius: 20px;
+    margin: 16px !important;
+}
+
+.card-lesson img {
+    border-radius: 20px;
+}
+
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    opacity: 0.4;
+    top: 0px;
+    border-radius: 20px;
+}
+
+.lesson01 {
+    background: linear-gradient(to right, #24FE41, #FDFC47)
+}
+
+.lesson02 {
+    background: linear-gradient(to right, #333399, #ff00cc)
+}
+
+.lesson03 {
+    background: linear-gradient(to right, #f7ff00, #db36a4)
+}
+
+.lesson04 {
+    background: linear-gradient(to right, #C02425, #F0CB35)
+}
+
+.lesson05 {
+    background: linear-gradient(to right, #00C9FF, #92FE9D)
+}
+
+.progressbar-lesson {
+    height: 10px !important;
+    border-radius: 10px;
+    width: 80%;
+    background: black !important;
+}
+
+.progressbar-lesson span {
+    border-radius: 10px;
+    background: #f44336 !important;
+}
+
+.view-main {
+    overflow: scroll;
+}

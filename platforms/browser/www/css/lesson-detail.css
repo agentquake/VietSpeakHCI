@@ -1,0 +1,132 @@
+.title-font {
+    font-family: 'HandWritingFont';
+    font-size: 30px;
+    align-content: center;
+    padding: 2px;   
+}
+
+.image-topic > img {
+    margin: 0 auto;
+    border-radius: 999px;
+    width: 70px !important;
+    height: 70px !important;
+    
+}
+
+.owl-item {
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.owl-item.cloned {
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.owl-item.active {
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    opacity: 1 !important;
+}
+
+.owl-carousel .owl-stage-outer {
+    overflow: inherit !important;
+}
+
+.owl-item.hihi {
+
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    opacity: 1 !important;
+}
+
+.owl-item.cloned.active.hihi {
+
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    opacity: 1 !important;
+}
+
+.card-3 {
+    border-radius: 20px;
+    text-align: center;
+}
+.card-3 h2,
+.card-3 h4 {
+    margin: 0;
+}
+.text-topic h4 {
+    margin: 10px 0px 0px;
+    font-weight: 400;
+    color: #ed7e8e;
+}
+.text-topic h2 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.md .card-3 {
+-webkit-box-shadow: 0px 10px #ebebeb;
+box-shadow: 0px 10px #ebebeb;
+  
+}
+
+.card-3-detail .card-content p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.card-3-detail {
+     border-radius: 20px;
+    border: 2px solid #eaeaea;
+}
+.md .card-3-detail {
+    -webkit-box-shadow: 0px 10px #ebebeb;
+box-shadow: 0px 2px #ebebeb;
+}
+.card-3-locked {
+    background-color: 
+#eaeaea;
+    color: #939393;
+}
+
+.card-3-done {
+    background-color: 
+#2dcc70;
+    color: #fff;
+}
+.card-3-done .check {
+    position: absolute;
+    display: block;
+    color: #fff;
+    right: -3px;
+    bottom: -3px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #2ecd71;
+    border-radius: 999px;
+    border: 2px solid #fff;
+    text-align: center;
+    
+}
+.card-3-process p {
+    margin: 0;
+    padding-bottom: 9px !important; 
+}
+
+.card-3-process a {
+    color: black;
+}
+
+.lesson-pro {
+    background-color: #eaeaea !important;
+    border-radius: 10px;
+    height: 6px !important;
+    
+}
+.lesson-pro span {
+    background-color: #f5b551 !important;
+}

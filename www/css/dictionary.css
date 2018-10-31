@@ -1,0 +1,8 @@
+.dict-card {
+    border-radius: 20px !important;
+}
+
+.top-card {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

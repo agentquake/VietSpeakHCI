@@ -1,0 +1,39 @@
+.settings-page {
+    color: white;
+}
+
+.profile-card {
+    margin: 15px !important;
+    border-radius: 20px;
+}
+
+.avatar-setting {
+    width: 100px;
+    border: solid 5px white;
+    border-radius: 120px;
+    margin: 20px auto;
+    display: inherit;
+}
+
+.name-pro {
+    text-align: center;
+}
+
+.getpro {
+    color: white !important;
+    font-weight: 600;
+    font-size: 20px !important;
+}
+
+.setting-list{
+    margin-top: 8px;
+}
+
+.setting-list ul :after {
+    background: white !important;
+}
+
+.setting-list .item-title {
+    font-size: 20px;
+    font-weight: 600;
+}

@@ -1,0 +1,176 @@
+
+
+.card-1 {
+    background: white;
+    height: 65%;
+    display: table;
+    width: 96%;
+    border-radius: 20px;
+}
+
+.card-1 a {
+    color: #616161;
+    border-radius: 20px;
+}
+
+.card-content-1 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.card-content-1 h1 {
+    font-size: 3rem;
+}
+
+
+.micro-button > svg {
+    width: 50px;
+    height: 50px;
+    color: #f3745f;
+}
+
+.micro-button {
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    left: 50%;
+    margin-top: 50px;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border: 0;
+    border-radius: 999px;
+    background-color: white;
+    text-align: center;
+    line-height: 100px;
+    z-index: 999;
+    -webkit-transition: 350ms ease all;
+    transition: 350ms ease all;
+}
+.next {
+    position: absolute;
+       opacity: 1;
+    left: 75%;
+    margin-top: 50px;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border: 0;
+    border-radius: 999px;
+   
+    
+    text-align: center;
+    line-height: 100px;
+    z-index: 999;
+    -webkit-transition: 350ms ease all;
+    transition: 350ms ease all;
+}
+.next > svg {
+    color: white;
+    width: 50px !important;
+    height: 50px;
+    
+}
+
+.micro-button.hehe {
+    background-color: #BDBDBD;
+    border: 2px solid white;
+
+}
+
+.micro-button.hehe > svg {
+    color: white;
+}
+
+.micro-button.hehe:after,
+.micro-button.hehe:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -2px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: transparent white;
+    border-radius: 50%;
+
+}
+
+.micro-button.hehe:before {
+    -webkit-animation: waveBefore 2s infinite;
+    animation: waveBefore 2s infinite;
+}
+
+.micro-button.hehe:after {
+    -webkit-animation: waveAfter 2s infinite;
+    animation: waveAfter 2s infinite;
+}
+
+@-webkit-keyframes waveBefore {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+@keyframes waveBefore {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes waveAfter {
+    0% {
+        -webkit-transform: scale(.65);
+        transform: scale(.65);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1.85);
+        transform: scale(1.85);
+        opacity: 0;
+    }
+}
+
+@keyframes waveAfter {
+    0% {
+        -webkit-transform: scale(.65);
+        transform: scale(.65);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1.85);
+        transform: scale(1.85);
+        opacity: 0;
+    }
+}
+.volume > svg {
+    width: 40px !important;
+    height: 40px;
+    color: #f3745f;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+.volume.changevolume > svg {
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    color: #BDBDBD;
+}
